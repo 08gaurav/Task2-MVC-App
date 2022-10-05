@@ -1,0 +1,14 @@
+﻿@{
+    ViewBag.Title = "Home";
+}
+
+<fieldset>
+    <legend>Task 2 MVC Login</legend>
+
+    @if (Session["UserName"] != null)
+    {
+        <text>
+        Welcome, @Session["UserName"].ToString()
+        </text>
+}
+</fieldset>
